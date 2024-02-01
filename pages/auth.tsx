@@ -110,7 +110,7 @@ export default function Auth() {
                       callbackUrl: "/profiles",
                     })
                   }
-                  className="w-10 h-10 bg-white rounded-full flex items-center justify-center cursor-pointer hover:opacity-80 transition"
+                  className="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center cursor-pointer hover:opacity-80 transition"
                 >
                   <FaGithub size={30} />
                 </div>
