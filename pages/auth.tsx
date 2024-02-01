@@ -95,7 +95,6 @@ export default function Auth() {
                 <div
                   onClick={() =>
                     signIn("google", {
-                      redirect: true,
                       callbackUrl: "/profiles",
                     })
                   }
@@ -106,7 +105,6 @@ export default function Auth() {
                 <div
                   onClick={() =>
                     signIn("github", {
-                      redirect: true,
                       callbackUrl: "/profiles",
                     })
                   }
