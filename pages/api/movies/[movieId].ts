@@ -12,7 +12,7 @@ export default async function handler(
   }
 
   try {
-    await serverAuth(req);
+    // await serverAuth(req);
 
     const { movieId } = req.query;
 
